@@ -4,12 +4,12 @@ import 'package:flutter/material.dart';
 import 'package:permission_handler/permission_handler.dart';
 import './call.dart';
 
-class IndexPage extends StatefulWidget {
+class videoCall extends StatefulWidget {
   @override
   State<StatefulWidget> createState() => IndexState();
 }
 
-class IndexState extends State<IndexPage> {
+class IndexState extends State<videoCall> {
   /// create a channelController to retrieve text value
   final _channelController = TextEditingController();
 
